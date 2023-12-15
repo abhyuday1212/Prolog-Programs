@@ -4,7 +4,7 @@ Welcome to the Prolog Program Repository, an exceptional compilation of powerful
 # Installation 
 
 ```bash
-git clone https://github.com/abhyuday1212/Prolog.git
+git clone https://github.com/abhyuday1212/Prolog-Programs.git
 ```
 
 # Platform Requirements / IDE's
