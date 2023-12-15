@@ -21,11 +21,13 @@ https://www.swi-prolog.org/download/devel
 
 # Special Mentions
 - In this repository, you'll discover code contributions from the exceptional Prolog programmer and my good friend, [Shreyansh]. We express our heartfelt gratitude for his outstanding contributions. Thank you for being an invaluable part of this collaborative endeavor.
+
 - You can Connect him here.
-[Github]{https://github.com/shreeyanshm}
-[Linkedin]{https://www.linkedin.com/in/shreeyansh-mittal/}
+- [Github](https://github.com/shreeyanshm)
+- [Linkedin](https://www.linkedin.com/in/shreeyansh-mittal/)
 
 # Queries for the programs to run
+
 
 ## 1.1 #1_Start.pl
 ```bash
@@ -39,16 +41,19 @@ related(prolog,naturalLanguageProcessing).
 ```bash
 related(ai,naturalLanguageProcessing).
 ```
+</br>
 
 ## 1.2 Cube.pl
 ```bash
 Cube.
 ```
+</br>
 
 ## 1.3 Dfs.pl
 ```bash
 start.
 ```
+</br>
 
 ## 1.4 Factorial.pl
 ```bash
@@ -62,6 +67,7 @@ fact(6,X).
 ```bash
 fact(10,Y).
 ```
+</br>
 
 ## 1.5 Fibbonacci.pl
 ```bash
@@ -75,6 +81,7 @@ series(6).
 ```bash
 series(8).
 ```
+</br>
 
 ## 1.6 List_Operations.pl
 ```bash
@@ -92,11 +99,13 @@ list_delete(Elem, [], Result).
 ```bash
 list_insert(Elem, [], Result).
 ```
+</br>
 
 ## 1.7 Medical.pl
 ```bash
 input.
 ```
+</br>
 
 ## 1.8 Monkey_Banana.pl
 ```bash
@@ -106,16 +115,19 @@ go.
 ```bash
 attempt(4, 10, 5, 2, 3).
 ```
+</br>
 
 ## 1.9 N_Queen.pl
 ```bash
 four_queens(Board).
 ```
+</br>
 
 ## 1.10 Temprature_Conversion.pl
 ```bash
 temp.
 ```
+</br>
 
 ## 1.11 Tower_of_hanoi.pl
 ```bash
@@ -133,26 +145,31 @@ move(4, 'A', 'C', 'B').
 ```bash
 move(5, 'A', 'B', 'C').
 ```
+</br>
 
 ## 1.12 Water_Jug.pl
 ```bash
 water_jug(0, 0).
 ```
+</br>
 
 - Explore different actions with 4L jug full and 3L jug empty:
 ```bash
 water_jug(4, 0).
 ```
+</br>
 
 - Explore different actions with 4L jug empty and 3L jug full:
 ```bash
 water_jug(0, 3).
 ```
+</br>
 
 - Explore different actions with both jugs partially filled:
 ```bash
 water_jug(2, 1).
 ```
+</br>
 
 - Explore different actions with both jugs at their maximum capacity:
 ```bash
