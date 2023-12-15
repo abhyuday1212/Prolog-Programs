@@ -18,4 +18,3 @@ dfs(CurrentNode, Goal, Visited) :-
 start :-
     write('Starting from: a'), nl,
     dfs(a, g, [a]).
-

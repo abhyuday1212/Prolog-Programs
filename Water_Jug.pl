@@ -17,4 +17,3 @@ water_jug(X,Y):-
 (X=:=2, Y=:=3,nl, write('4L:2 & 3L:0 (Action: Empty 3L jug.)'),YY is 0, water_jug(X, YY));
 (X=:=4, Y=:=2,nl, write('4L:06 3L:2 (Action: Empty 4L jug.)'), XX is 0, water_jug(XX, Y));
 (X=:=0, Y=:=2,nl, write('4L:2 & 3L:0 (Action: Pour water from 3L jug to 4L jug.)'),XX is Y, YY is X, water_jug(XX, YY)).
-

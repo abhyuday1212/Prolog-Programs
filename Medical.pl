@@ -1,3 +1,5 @@
+:- dynamic patient/2.
+
 symptom('Flu').
 symptom('Yellowish eyes and skin').
 symptom('Dark color urine').
@@ -19,7 +21,7 @@ treatment('Pain in Joints', 'Apply pain killer and take crocin.').
 treatment('Weakness', 'Drink salt and water, eat fruits.').
 treatment('Stomach Pain', 'Avoid outside food and eat fruits.').
 
-input :- dynamic(patient/2),
+input :- 
     repeat,
     symptom(X),
     write('Does the patient have '),
@@ -73,11 +75,16 @@ disease(flu) :-
     not(disease(hepatitis_a)),
     patient('Flu',yes).
 
-output:-
-    nl,
-    possible_diseases,
-    nl,
-    advice.
+possible_diseases :- 
+    disease(X), 
+    write('The patient may suffer from '), 
+    write(X),no
+    nl.
 
-possible_diseases :- disease(X), write('The patient may suffer from '), write(X),nl.
-advice :- symptom(X), patient(X,yes), treatment(X,Y), write(Y),nl, \+ not(X='Stomach Pain').
+advice :- 
+    symptom(X), 
+    patient(X,yes), 
+    treatment(X,Y), 
+    write(Y),
+    nl, 
+    \+ not(X='Stomach Pain').
